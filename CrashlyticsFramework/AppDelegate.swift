@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Ben Chatelain. All rights reserved.
 //
 
+import Crashlytics
 import UIKit
 
 @UIApplicationMain
@@ -15,7 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        Crashlytics.sharedInstance().debugMode = true
+        if let key = apiKey() {
+            Crashlytics.startWithAPIKey(key)
+        }
+        else {
+            println("Could not load Crashlytics API key from bundle.")
+        }
+
         return true
     }
 
@@ -39,6 +48,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+
+    // MARK: - Private Methods
+
+    private func apiKey() -> String? {
+        var error: NSError? = nil
+        if let path = NSBundle.mainBundle().pathForResource("crashlytics", ofType: "key") {
+            if let contents = String(contentsOfFile: path, encoding: NSUTF8StringEncoding, error: &error) {
+                return contents
+            }
+        }
+
+        if let error = error {
+            println("error: \(error)")
+        }
+
+        return nil
     }
 
 

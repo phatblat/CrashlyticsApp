@@ -281,7 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Pods/CrashlyticsFramework/Crashlytics.framework/run $API_KEY $BUILD_SECRET";
+			shellScript = "./Pods/CrashlyticsFramework/Crashlytics.framework/run ${API_KEY} ${BUILD_SECRET}\n\n# Include the API key in the bundle (so that it's not in the tracked source code)\necho ${API_KEY} > \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/crashlytics.key\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
