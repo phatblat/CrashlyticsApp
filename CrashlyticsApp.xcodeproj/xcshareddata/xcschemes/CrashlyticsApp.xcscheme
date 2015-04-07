@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0620"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8F5D7CF1AD35A6900DC6A9F"
-               BuildableName = "CrashlyticsFramework.app"
-               BlueprintName = "CrashlyticsFramework"
-               ReferencedContainer = "container:CrashlyticsFramework.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8F5D7E41AD35A6A00DC6A9F"
-               BuildableName = "CrashlyticsFrameworkTests.xctest"
-               BlueprintName = "CrashlyticsFrameworkTests"
-               ReferencedContainer = "container:CrashlyticsFramework.xcodeproj">
+               BuildableName = "CrashlyticsApp.app"
+               BlueprintName = "CrashlyticsApp"
+               ReferencedContainer = "container:CrashlyticsApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8F5D7E41AD35A6A00DC6A9F"
-               BuildableName = "CrashlyticsFrameworkTests.xctest"
-               BlueprintName = "CrashlyticsFrameworkTests"
-               ReferencedContainer = "container:CrashlyticsFramework.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8F5D7CF1AD35A6900DC6A9F"
-            BuildableName = "CrashlyticsFramework.app"
-            BlueprintName = "CrashlyticsFramework"
-            ReferencedContainer = "container:CrashlyticsFramework.xcodeproj">
+            BuildableName = "CrashlyticsApp.app"
+            BlueprintName = "CrashlyticsApp"
+            ReferencedContainer = "container:CrashlyticsApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8F5D7CF1AD35A6900DC6A9F"
-            BuildableName = "CrashlyticsFramework.app"
-            BlueprintName = "CrashlyticsFramework"
-            ReferencedContainer = "container:CrashlyticsFramework.xcodeproj">
+            BuildableName = "CrashlyticsApp.app"
+            BlueprintName = "CrashlyticsApp"
+            ReferencedContainer = "container:CrashlyticsApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8F5D7CF1AD35A6900DC6A9F"
-            BuildableName = "CrashlyticsFramework.app"
-            BlueprintName = "CrashlyticsFramework"
-            ReferencedContainer = "container:CrashlyticsFramework.xcodeproj">
+            BuildableName = "CrashlyticsApp.app"
+            BlueprintName = "CrashlyticsApp"
+            ReferencedContainer = "container:CrashlyticsApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

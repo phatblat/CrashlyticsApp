@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CrashlyticsFramework
+//  CrashlyticsApp
 //
 //  Created by Ben Chatelain on 4/6/15.
 //  Copyright (c) 2015 Ben Chatelain. All rights reserved.

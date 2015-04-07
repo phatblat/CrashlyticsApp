@@ -13,7 +13,7 @@
 		F8F5D7DB1AD35A6900DC6A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F5D7D91AD35A6900DC6A9F /* Main.storyboard */; };
 		F8F5D7DD1AD35A6900DC6A9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F5D7DC1AD35A6900DC6A9F /* Images.xcassets */; };
 		F8F5D7E01AD35A6900DC6A9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F5D7DE1AD35A6900DC6A9F /* LaunchScreen.xib */; };
-		F8F5D7EC1AD35A6A00DC6A9F /* CrashlyticsFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F5D7EB1AD35A6A00DC6A9F /* CrashlyticsFrameworkTests.swift */; };
+		F8F5D7EC1AD35A6A00DC6A9F /* CrashlyticsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F5D7EB1AD35A6A00DC6A9F /* CrashlyticsAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,16 +31,16 @@
 		BAA56E436F3B591760EE6F27 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F8A26B5D1AD35B6D0088868D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		F8A26B5F1AD365760088868D /* Private.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Private.xcconfig; sourceTree = "<group>"; };
-		F8F5D7D01AD35A6900DC6A9F /* CrashlyticsFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashlyticsFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F5D7D01AD35A6900DC6A9F /* CrashlyticsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashlyticsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F5D7D41AD35A6900DC6A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8F5D7D51AD35A6900DC6A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8F5D7D71AD35A6900DC6A9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8F5D7DA1AD35A6900DC6A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8F5D7DC1AD35A6900DC6A9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8F5D7DF1AD35A6900DC6A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F8F5D7E51AD35A6A00DC6A9F /* CrashlyticsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashlyticsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F5D7E51AD35A6A00DC6A9F /* CrashlyticsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashlyticsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F5D7EA1AD35A6A00DC6A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8F5D7EB1AD35A6A00DC6A9F /* CrashlyticsFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsFrameworkTests.swift; sourceTree = "<group>"; };
+		F8F5D7EB1AD35A6A00DC6A9F /* CrashlyticsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsAppTests.swift; sourceTree = "<group>"; };
 		FF028C9EDB6CF4A681169A86 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,8 +83,8 @@
 		F8F5D7C71AD35A6900DC6A9F = {
 			isa = PBXGroup;
 			children = (
-				F8F5D7D21AD35A6900DC6A9F /* CrashlyticsFramework */,
-				F8F5D7E81AD35A6A00DC6A9F /* CrashlyticsFrameworkTests */,
+				F8F5D7D21AD35A6900DC6A9F /* CrashlyticsApp */,
+				F8F5D7E81AD35A6A00DC6A9F /* CrashlyticsAppTests */,
 				3139EE801B9968EDD63928D1 /* Frameworks */,
 				F8A26B5D1AD35B6D0088868D /* Podfile */,
 				B3B159DB86F534B7D56DC4CC /* Pods */,
@@ -96,13 +96,13 @@
 		F8F5D7D11AD35A6900DC6A9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8F5D7D01AD35A6900DC6A9F /* CrashlyticsFramework.app */,
-				F8F5D7E51AD35A6A00DC6A9F /* CrashlyticsFrameworkTests.xctest */,
+				F8F5D7D01AD35A6900DC6A9F /* CrashlyticsApp.app */,
+				F8F5D7E51AD35A6A00DC6A9F /* CrashlyticsAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8F5D7D21AD35A6900DC6A9F /* CrashlyticsFramework */ = {
+		F8F5D7D21AD35A6900DC6A9F /* CrashlyticsApp */ = {
 			isa = PBXGroup;
 			children = (
 				F8F5D7D51AD35A6900DC6A9F /* AppDelegate.swift */,
@@ -112,7 +112,7 @@
 				F8F5D7DE1AD35A6900DC6A9F /* LaunchScreen.xib */,
 				F8F5D7D31AD35A6900DC6A9F /* Supporting Files */,
 			);
-			path = CrashlyticsFramework;
+			path = CrashlyticsApp;
 			sourceTree = "<group>";
 		};
 		F8F5D7D31AD35A6900DC6A9F /* Supporting Files */ = {
@@ -123,13 +123,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F8F5D7E81AD35A6A00DC6A9F /* CrashlyticsFrameworkTests */ = {
+		F8F5D7E81AD35A6A00DC6A9F /* CrashlyticsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8F5D7EB1AD35A6A00DC6A9F /* CrashlyticsFrameworkTests.swift */,
+				F8F5D7EB1AD35A6A00DC6A9F /* CrashlyticsAppTests.swift */,
 				F8F5D7E91AD35A6A00DC6A9F /* Supporting Files */,
 			);
-			path = CrashlyticsFrameworkTests;
+			path = CrashlyticsAppTests;
 			sourceTree = "<group>";
 		};
 		F8F5D7E91AD35A6A00DC6A9F /* Supporting Files */ = {
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8F5D7CF1AD35A6900DC6A9F /* CrashlyticsFramework */ = {
+		F8F5D7CF1AD35A6900DC6A9F /* CrashlyticsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8F5D7EF1AD35A6A00DC6A9F /* Build configuration list for PBXNativeTarget "CrashlyticsFramework" */;
+			buildConfigurationList = F8F5D7EF1AD35A6A00DC6A9F /* Build configuration list for PBXNativeTarget "CrashlyticsApp" */;
 			buildPhases = (
 				C1AE7286CC45387907DCD630 /* Check Pods Manifest.lock */,
 				F8F5D7CC1AD35A6900DC6A9F /* Sources */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = CrashlyticsFramework;
+			name = CrashlyticsApp;
 			productName = CrashlyticsFramework;
-			productReference = F8F5D7D01AD35A6900DC6A9F /* CrashlyticsFramework.app */;
+			productReference = F8F5D7D01AD35A6900DC6A9F /* CrashlyticsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8F5D7E41AD35A6A00DC6A9F /* CrashlyticsFrameworkTests */ = {
+		F8F5D7E41AD35A6A00DC6A9F /* CrashlyticsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8F5D7F21AD35A6A00DC6A9F /* Build configuration list for PBXNativeTarget "CrashlyticsFrameworkTests" */;
+			buildConfigurationList = F8F5D7F21AD35A6A00DC6A9F /* Build configuration list for PBXNativeTarget "CrashlyticsAppTests" */;
 			buildPhases = (
 				F8F5D7E11AD35A6A00DC6A9F /* Sources */,
 				F8F5D7E21AD35A6A00DC6A9F /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				F8F5D7E71AD35A6A00DC6A9F /* PBXTargetDependency */,
 			);
-			name = CrashlyticsFrameworkTests;
+			name = CrashlyticsAppTests;
 			productName = CrashlyticsFrameworkTests;
-			productReference = F8F5D7E51AD35A6A00DC6A9F /* CrashlyticsFrameworkTests.xctest */;
+			productReference = F8F5D7E51AD35A6A00DC6A9F /* CrashlyticsAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8F5D7CB1AD35A6900DC6A9F /* Build configuration list for PBXProject "CrashlyticsFramework" */;
+			buildConfigurationList = F8F5D7CB1AD35A6900DC6A9F /* Build configuration list for PBXProject "CrashlyticsApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,8 +212,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8F5D7CF1AD35A6900DC6A9F /* CrashlyticsFramework */,
-				F8F5D7E41AD35A6A00DC6A9F /* CrashlyticsFrameworkTests */,
+				F8F5D7CF1AD35A6900DC6A9F /* CrashlyticsApp */,
+				F8F5D7E41AD35A6A00DC6A9F /* CrashlyticsAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8F5D7EC1AD35A6A00DC6A9F /* CrashlyticsFrameworkTests.swift in Sources */,
+				F8F5D7EC1AD35A6A00DC6A9F /* CrashlyticsAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +308,7 @@
 /* Begin PBXTargetDependency section */
 		F8F5D7E71AD35A6A00DC6A9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8F5D7CF1AD35A6900DC6A9F /* CrashlyticsFramework */;
+			target = F8F5D7CF1AD35A6900DC6A9F /* CrashlyticsApp */;
 			targetProxy = F8F5D7E61AD35A6A00DC6A9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,9 +421,9 @@
 			baseConfigurationReference = F8A26B5F1AD365760088868D /* Private.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CrashlyticsFramework/Info.plist;
+				INFOPLIST_FILE = CrashlyticsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CrashlyticsApp;
 			};
 			name = Debug;
 		};
@@ -432,9 +432,9 @@
 			baseConfigurationReference = 70C4417EECA8FC8E99EFE273 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CrashlyticsFramework/Info.plist;
+				INFOPLIST_FILE = CrashlyticsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CrashlyticsApp;
 			};
 			name = Release;
 		};
@@ -450,10 +450,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CrashlyticsFrameworkTests/Info.plist;
+				INFOPLIST_FILE = CrashlyticsAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashlyticsFramework.app/CrashlyticsFramework";
+				PRODUCT_NAME = CrashlyticsAppTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashlyticsApp.app/CrashlyticsApp";
 			};
 			name = Debug;
 		};
@@ -465,17 +465,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CrashlyticsFrameworkTests/Info.plist;
+				INFOPLIST_FILE = CrashlyticsAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashlyticsFramework.app/CrashlyticsFramework";
+				PRODUCT_NAME = CrashlyticsAppTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashlyticsApp.app/CrashlyticsApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8F5D7CB1AD35A6900DC6A9F /* Build configuration list for PBXProject "CrashlyticsFramework" */ = {
+		F8F5D7CB1AD35A6900DC6A9F /* Build configuration list for PBXProject "CrashlyticsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8F5D7ED1AD35A6A00DC6A9F /* Debug */,
@@ -484,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8F5D7EF1AD35A6A00DC6A9F /* Build configuration list for PBXNativeTarget "CrashlyticsFramework" */ = {
+		F8F5D7EF1AD35A6A00DC6A9F /* Build configuration list for PBXNativeTarget "CrashlyticsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8F5D7F01AD35A6A00DC6A9F /* Debug */,
@@ -493,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8F5D7F21AD35A6A00DC6A9F /* Build configuration list for PBXNativeTarget "CrashlyticsFrameworkTests" */ = {
+		F8F5D7F21AD35A6A00DC6A9F /* Build configuration list for PBXNativeTarget "CrashlyticsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8F5D7F31AD35A6A00DC6A9F /* Debug */,
