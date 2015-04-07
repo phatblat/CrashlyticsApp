@@ -3,7 +3,7 @@
 //  CrashlyticsFramework
 //
 //  Created by Ben Chatelain on 4/6/15.
-//  Copyright (c) 2015 Kaiser Permanente. All rights reserved.
+//  Copyright (c) 2015 Ben Chatelain. All rights reserved.
 //
 
 import UIKit
