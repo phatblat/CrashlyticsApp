@@ -1,0 +1,15 @@
+//
+//  Private.example.xcconfig
+//  CrashlyticsApp
+//
+//  Created by Ben Chatelain on 4/6/15.
+//  Copyright (c) 2015 Ben Chatelain. All rights reserved.
+//
+
+// Rename this file to Private.xcconfig and enter your Crashlytics API_KEY and BUILD_SECRET.
+// The Private.xcconfig is ignored by git and should NOT be checked in (unless you are using a private remote).
+
+#include "Pods/Target Support Files/Pods/Pods.debug.xcconfig"
+
+API_KEY = *************
+BUILD_SECRET = *************
