@@ -2,3 +2,6 @@
 xcuserdata
 *.xccheckout
 
+# Purposefully ignored
+Private.xcconfig
+
