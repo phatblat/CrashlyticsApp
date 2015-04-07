@@ -6,20 +6,26 @@
 //  Copyright (c) 2015 Ben Chatelain. All rights reserved.
 //
 
+import Crashlytics
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var versionLabel: UILabel!
+    @IBOutlet weak var apiKeyLabel: UILabel!
+    @IBOutlet weak var debugModeLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        if let crashlytics = Crashlytics.sharedInstance() {
 
+            versionLabel?.text = crashlytics.version
+            apiKeyLabel?.text = crashlytics.apiKey
+            debugModeLabel?.text = crashlytics.debugMode ? "ON" : "OFF"
+
+        }
+    }
 
 }
 
