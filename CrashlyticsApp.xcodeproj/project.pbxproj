@@ -31,6 +31,7 @@
 		BAA56E436F3B591760EE6F27 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F8A26B5D1AD35B6D0088868D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		F8A26B5F1AD365760088868D /* Private.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Private.xcconfig; sourceTree = "<group>"; };
+		F8C816DB1ADDD9BA007AFD00 /* Private.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Private.example.xcconfig; sourceTree = "<group>"; };
 		F8F5D7D01AD35A6900DC6A9F /* CrashlyticsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashlyticsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F5D7D41AD35A6900DC6A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8F5D7D51AD35A6900DC6A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 				3139EE801B9968EDD63928D1 /* Frameworks */,
 				F8A26B5D1AD35B6D0088868D /* Podfile */,
 				B3B159DB86F534B7D56DC4CC /* Pods */,
+				F8C816DB1ADDD9BA007AFD00 /* Private.example.xcconfig */,
 				F8A26B5F1AD365760088868D /* Private.xcconfig */,
 				F8F5D7D11AD35A6900DC6A9F /* Products */,
 			);
