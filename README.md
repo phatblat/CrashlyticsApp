@@ -10,3 +10,7 @@ To keep the Crashlytics API keys out of the, there is an ignored `Private.xcconf
 
 * Xcode 6.2 (Swift 1.1)
 * Cocoapods 0.36.3
+
+## License
+
+This repo is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for rights and limitations.
